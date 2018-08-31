@@ -2,7 +2,7 @@ package youDoit;
 
 import java.util.Scanner;
 
-public class arthmeticoperators {
+public class ArithmeticDemo3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,7 +10,7 @@ int firstNumber;
 int secondNumber;
 int sum;
 int difference;
-int average;
+double average;
 
 Scanner input = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ secondNumber = input.nextInt();
 
 sum = firstNumber + secondNumber;
 difference = firstNumber - secondNumber;
-average = sum/2;
+average = (double) sum/2;
 
 System.out.println(firstNumber + "+" + secondNumber + " is "  + sum);
 System.out.println(firstNumber + "-" + secondNumber + " is "  + difference);
