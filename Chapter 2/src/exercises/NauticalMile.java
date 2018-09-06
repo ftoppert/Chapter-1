@@ -14,7 +14,7 @@ public class NauticalMile {
 		nauticalMilesToMilesConversion = nauticalMilesEntered * milesToNauticalMiles;
 		nauticalMilesToKilometersConversion =nauticalMilesEntered * kilometersToNauticalMiles;
 		System.out.println("The conversion of Natical Miles to Miles is " +  nauticalMilesToMilesConversion);
-		System.out.println("The conversion of Nautical miles to Kilometers is" + nauticalMilesToKilometersConversion);
+		System.out.println("The conversion of Nautical miles to Kilometers is " + nauticalMilesToKilometersConversion);
 	
 		
 		 
