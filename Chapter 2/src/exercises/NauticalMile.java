@@ -11,6 +11,8 @@ public class NauticalMile {
 		double milesToNauticalMiles =  1.150779;
 		double nauticalMilesEntered = 20;
 		
+		nauticalMilesToMilesConversion = nauticalMilesEntered * milesToNauticalMiles;
+		nauticalMilesToKilometersConversion =nauticalMilesEntered * kilometersToNauticalMiles;
 		System.out.println("The conversion of Natical Miles to Miles is " +  nauticalMilesToMilesConversion);
 		System.out.println("The conversion of Nautical miles to Kilometers is" + nauticalMilesToKilometersConversion);
 	
