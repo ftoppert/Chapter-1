@@ -4,16 +4,18 @@ import javax.swing.JOptionPane;
 
 public class Eggs
 {
-   public static void main(String[] args)
+   @SuppressWarnings("unused")
+public static void main(String[] args)
    {
-      double dozenEggs = 3.25;
-      double singleEgg = 0.45;
-      double cost = 0;
-      double dozen= 12;
+     
       int eggsOrdered;
       int computeDozen;
       int accumulateDozen;
       int computeSingle;
+      double dozenEggs = 3.25;
+      double singleEgg = 0.45;
+      double cost = 0;
+      double dozen= 12;
       String eggsOrderStr;
       
       eggsOrderStr = JOptionPane.showInputDialog(null, " Enter amount of eggs you want to order: ", "Purchase",
